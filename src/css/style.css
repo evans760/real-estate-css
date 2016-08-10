@@ -1,0 +1,96 @@
+body {
+  background-color: #90C3D4;
+}
+
+#seattle  {
+  width: 100%;
+}
+
+#nav {
+  background-color: #90C3D4;
+}
+
+#nav2 {
+  background-color: #90C3D4;
+}
+
+/*.well-2 {
+  background-color: #90C3D4;
+}*/
+
+#search {
+  align: right;
+}
+
+.container-2 {
+  background-color: #90C3D4;
+}
+
+.container-1 {
+  margin-left: 250px;
+}
+
+#steve {
+  height: 10%;
+  padding-left: 65%;
+}
+
+#aboutSteve {
+  padding-right: 10%;
+  padding-top: 8%;
+}
+
+#moreAboutSteve {
+  padding-right: 10%;
+}
+
+
+/*h4 {
+  text-align: center;
+}*/
+
+/*#aboutSteve {
+  text-align: left;
+}*/
+
+/* carousel */
+#quote-carousel {
+  padding: 0 10px 30px 10px;
+  margin-top: 30px;
+  text-align:center;
+}
+/* indicator position */
+#quote-carousel .carousel-indicators {
+  right: 50%;
+  top: auto;
+  bottom: -10px;
+  margin-right: -19px;
+}
+/* indicator color */
+#quote-carousel .carousel-indicators li {
+  background: #c0c0c0;
+}
+/* active indicator */
+#quote-carousel .carousel-indicators .active {
+  background: #333333;
+  height:10px;
+  width:10px;
+  margin-bottom:1px;
+}
+/* typography */
+h1 {
+  text-align:center;
+  margin-bottom:-20px !important;
+}
+p {
+  font-style:italic;
+}
+
+#test {
+  background-color: gold;
+  text-align: center;
+}
+
+.footer {
+  background-color: #90C3D4;
+}
