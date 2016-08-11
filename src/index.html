@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
- <link rel="stylesheet" type="text/css" href="css/style.css">
- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+ 
+ 
 
 
   <title>Steve Shelton</title>
@@ -14,12 +14,13 @@
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
-<link rel="stylesheet" href="css/mockup.css">
+
 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
-<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
+<link rel="stylesheet" type="text/css" href="css/style.css">
 
 
 </head>
@@ -27,7 +28,7 @@
 
 <body>
 
-<nav class="navbar navbar-default" id="nav">
+<nav class="navbar navbar-default navbar-fixed-top" id="nav">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -37,38 +38,27 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Brand</a>
+      <a class="navbar-brand" id="nav-1" href="index.html">Shelton Realty </a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active"><a id="nav2" href="../src/properties.html">Properties <span class="sr-only">(current)</span></a></li>
-        <li class="active"><a id="nav2" href="../src/buyers.html">Buyers <span class="sr-only">(current)</span></a></li>
-        <li class="active"><a id="nav2" href="../src/sellers.html">Sellers <span class="sr-only">(current)</span></a></li>
-          </ul>
-        </li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="../src/Contact.html">Contact</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="../src/about.html">About Steve Shelton</a></li>
-            <li><a href="../src/news.html">News</a></li>
-          </ul>
-        </li>
+  
+      <ul class="nav navbar-nav navbar-right" id="nav2">
+        <li class="active"><a id="nav2" href="properties.html">Buy <span class="sr-only">(current)</span></a></li>
+        <li class="active"><a id="nav2" href="sellers.html">Sell <span class="sr-only">(current)</span></a></li>
+        <li><a href="about.html" id="nav2">About</a></li>
+        <li><a href="../src/Contact.html" id="nav2">Contact</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
 
-<section>
-      <img id="seattle" src="images/seattle.jpg">
-    </div>
-  </div>
-</div>
-</section>
+  <header>
+  <img id="seattle" src="images/seattle.jpg">
+      <span id="overlayText"><h1>Find your dream home.</h1></span>
+        <span id="overlayText-2"> Appartments Houses Commercial </span>
+</header>
 
 <section class="well-2">
 <!-- <form action="#" method="GET">
@@ -99,8 +89,8 @@
   <div class="media-body" id="aboutSteve">
     <div class="row">
         <div class="col-md-4"></div>
-          <div class="col-md-8"><h4>Steve Shelton</h4><p>Steven Shelton is a real estate professional/ broker servicing the King, Pierce and Snohomish County area.
-Steve grow up in Kirkland, WA and now resides in Seattle. He enjoys the people, seasons, culture and all different aspects the city has to offer.</p><button type="submit" class="btn btn-default">Learn more about Steve</button></div>
+          <div class="col-md-8"><p>Steven Shelton is a real estate professional/ broker servicing the King, Pierce and Snohomish County area.
+Steve grow up in Kirkland, WA and now resides in Seattle. He enjoys the people, seasons, culture and all different aspects the city has to offer.</p><button href="about.html" class="btn btn-default">Learn more about Steve</button></div>
     </div>
   </div>
 </div>
@@ -140,7 +130,7 @@ Steve grow up in Kirkland, WA and now resides in Seattle. He enjoys the people, 
 <div class="item">
   <div class="row">
     <div class="col-sm-12">
-      <p>&ldquo;Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean lacinia bibendum nulla sed consectetur. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.&rdquo;</p>
+      <p>&ldquo;Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.&rdquo;</p>
       <small><strong>Fringilla A., Vulputate Sit</strong></small>
     </div>
   </div>
@@ -176,9 +166,8 @@ Steve grow up in Kirkland, WA and now resides in Seattle. He enjoys the people, 
     <br>
     <div class="row col-md-8 col-sm-8 row col-xs-8"><p>sshelton@warringproperties</p>
       <div class="row col-md-4 col-sm-4 col-xs-4">
-      <li><a href="https://www.linkedin.com/in/thomas-evans-67301220
-" target="_blank" class="icon fa-linkedin fa-2x" ><span class="label">LinkedIn</span></a></li>
-<i class="fa fa-diamond"></i>
+      <a href="https://www.linkedin.com/in/thomas-evans-67301220
+" target="_blank"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i><span class="label">LinkedIn</span></a>
 <br>
 
         </div>

@@ -2,16 +2,45 @@ body {
   background-color: #90C3D4;
 }
 
+.navbar .navbar-default {
+  padding: 0;
+}
+
 #seattle  {
+  position: relative;
   width: 100%;
+}
+#overlayText {
+  position: absolute;
+  top: 25%;
+  left: 0;
+  width: 100%;
+
+}
+
+#overlayText-2 {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  width: 100%;
+  
 }
 
 #nav {
   background-color: #90C3D4;
+  font-family: 'Vesper Libre', serif;
+  font-size: 20px;
+}
+
+#nav-1 {
+  font-family: 'Vesper Libre', serif;
+  font-size: 30px;
+  color: white;
 }
 
 #nav2 {
   background-color: #90C3D4;
+  color: white;
 }
 
 /*.well-2 {
@@ -24,6 +53,8 @@ body {
 
 .container-2 {
   background-color: #90C3D4;
+  padding-top: 60px;
+  padding-bottom: 15px;
 }
 
 .container-1 {
@@ -33,17 +64,31 @@ body {
 #steve {
   height: 10%;
   padding-left: 65%;
+  padding-bottom: 25%;
 }
 
 #aboutSteve {
   padding-right: 10%;
-  padding-top: 8%;
+  padding-top: 3%;
+  font-family: 'Vesper Libre', serif;
+  font-size: 30px;
 }
 
 #moreAboutSteve {
   padding-right: 10%;
 }
 
+#nav {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#nav2 {
+  background: transparent;
+}
+
+.navbar-default {
+  border:0;
+}
 
 /*h4 {
   text-align: center;
@@ -93,4 +138,30 @@ p {
 
 .footer {
   background-color: #90C3D4;
+}
+
+@media only screen and (max-width: 600px) {
+  #overlayText {
+  position: absolute;
+  top: 20%;
+  left: 0;
+  width: 100%;
+  color:white;
+}
+  #overlayText-2 {
+  display: none;
+}
+}
+
+@media only screen and (max-width: 375px) {
+  #overlayText {
+  position: absolute;
+  top: 10%;
+  left: 0;
+  width: 100%;
+  color:white;
+}
+  #overlayText-2 {
+  display: none;
+}
 }
